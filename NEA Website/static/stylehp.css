@@ -1,0 +1,35 @@
+
+.HPTitle {
+    color: #ffffff; /* Makes the colour of the title black */
+    font-family:'Helvetica Neue';
+    font-size: 70px;
+    text-align: center;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column; /* Arrange links vertically */
+    align-items: center; /* Center align links horizontally */
+}
+
+.links-container a {
+    display: block;
+    margin: 20px 0; /* Vertical margin between links */
+    padding: 20px 40px; /* Padding for clickable area */
+    background-color: #7a7070; /* Background color for better visibility */
+    color: #333; /* Link text color */
+    border-radius: 10px; /* Rounded corners */
+    border-color: #2634fc; /*Sets the color of the border*/
+    font-family: 'Helvetica Neue', sans-serif; /* Ensure fallback font */
+    color: #ffffff;
+}
+
+.links-container a:hover {
+    background-color: #2634fc; /* Background color on hover */
+}
+
+.HPTitle {
+    padding: 60px;
+    text-align: center;
+    background-color: #2634fc;   
+}

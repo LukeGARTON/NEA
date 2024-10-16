@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="static/style.css"> <!--Here the CSS program that I have written is linked, meaning that it will determine the attributes for everything on the page-->
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    
+    <div class="LogoContainer">
+    <h1 style="font-size: 70px;" class="Logo"> BetterEd</h1>
+    <h1 style="font-size: 20px;" class="LogoText"> Making Comp sci that much easier </h1>
+    </div>
+    <div class="Container">
+    <h1 style="font-size: 70px; text-align: center;" class="LoginTitle" >Login</h1> <!--Adds the login text to the top of the page with its attributes, and assigns it a class for further modification in CSS.-->
+    <div class="wrapper">
+        <form action="/login" method="POST"> <!--This is where the SQL (SQLonline) code for a database will be linked, making the login page functional by storing data.-->
+            <div class="input-box">
+                <input type="text" name="entered_username" placeholder="Enter Username" required> <!--Input box for Username-->
+            </div>
+            <div class ="input-box">
+                <input type="password" name="entered_password" placeholder="Enter Password" required> <!--Input box for Password-->
+            </div>
+            <label> <input type="checkbox" checked="checked" name="remember" class="Checkbox" > Remember me </label> <!--Adds a label for remembering passwords.-->
+                <input type="submit" value="Login" class="btn" href="">
+            </div>
+            <a href="#" class="ForgotPassword">Forgot Password?</a></span>
+    </form>
+    <h1 style="font-size: 20px; text-align: center;" class="CreateAcc"><a href="signup">Create An Account</a> </h1> <!--Navigates the user to the sign up page so that an account can be created.-->
+    </div>
+</div>
+<div class="InfoFAQ">
+    <p> BetterEd is an online study tool designed to assist students with A level computer science topics that are tough to remember. We utilise tools that are proven to be most effective in studying CS, such as flashcards and quizzes, all for completely free! </p>
+</body>
+
+</html>

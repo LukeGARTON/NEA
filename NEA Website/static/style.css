@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.wrapper { 
+    text-align: center; /* The "Wrapper" class is a class selector, meaning that it targets all html elements with the class "Wrapper". The simple css code aligns the box */
+}
+
+.input-box {
+    margin-top: 20px; /* This allows me to adjust how far the text input box is from the top of the page */
+}
+body {
+    background-image: url('https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?cs=srgb&dl=pexels-francesco-ungaro-1525041.jpg&fm=jpg'); /* The link to whatever image that I will use for the background of the page will be inserted here */
+    background-size: cover; /* Covers the entire page */
+    background-position: center; /* Centralises the image */
+    background-repeat: no-repeat; /* Ensures that the image does not repeat */
+    background-attachment: fixed; /* Ensures that the image is fixed onto the page */
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: block; /* Makes the button a block element */
+    margin-top: 20px; /* Adds a margin to separate it from input boxes */
+    margin-left: auto; /* Centers the button horizontally */
+    margin-right: auto;
+}
+
+.LoginTitle {
+    color: #000000; /* Makes the colour of the login title black */
+    font-family:'Helvetica Neue';
+}
+
+.SignUpTitle {
+    color: #000000; /* Makes the colour of the Sign up title black */
+    font-family:'Helvetica Neue';
+}
+
+
+.CreateAcc {
+    margin-top: 20px /* Distance from the next object */
+}
+
+.Container {
+    margin-top: 20px;
+    border: 2px solid #000;
+    padding: 10px; /* Space inside the border */
+    margin: 10px auto; /* Space outside the border*/
+    max-width: 300px; /* Maximum width of the box */
+    background-color: rgba(255, 255, 255, 0.5); /* Adds the Semi-transparent white background */
+    text-align: center; /* Center-aligning the text inside the box */
+}
+
+.Checkbox {
+    color: #000000;
+    font-family: 'Helvetica Neue';
+    margin-top: 20px;
+}
+
+.ForgotPassword {
+    margin-top: 20px;
+}
+
+.LogoContainer {
+    border: 8px solid #fff;
+    padding: 10px;
+    margin: 10px auto; 
+    max-width: 370px;
+    background-color: #0091ca;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    color: #fff;
+}
+
+.Logo {
+    font-family: "Alfa Slab One", serif;
+}
+
+.LogoText {
+    font-family: 'Helvetica Neue';
+    text-align: center;
+}
+
+.InfoFAQ {
+    margin-top: 15px;
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 100px auto;
+    max-width: 1500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
